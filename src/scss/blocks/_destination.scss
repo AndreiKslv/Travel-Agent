@@ -1,6 +1,8 @@
 .destinations {
 	padding: 60px 0;
 
+	overflow-x: hidden;
+
     &__inner {
 		display: flex;
 		justify-content: space-between;

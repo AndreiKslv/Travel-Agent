@@ -9,17 +9,18 @@ function scrollRevealCode() {
 
 	ScrollReveal().reveal('.header', {
 		origin: 'top',
-		delay: 100,
+		delay: 2500,
 	})
 	
 	ScrollReveal().reveal('.promo__title-block', {
-		distance: '120px',
+		distance: '60px',
 		origin: 'left',
 		delay: 500,
 	})
 
 	ScrollReveal().reveal('.promo__img-main', {
-		origin: 'right',
+		distance: '60px',
+		origin: 'bottom',
 		delay: 2000,
 	})
 
@@ -29,7 +30,7 @@ function scrollRevealCode() {
 	})
 
 	ScrollReveal().reveal('.promo__scroll-down', {
-		origin: 'right',
+		origin: 'bottom',
 		delay: 4500,
 	})
 
@@ -40,7 +41,7 @@ function scrollRevealCode() {
 
 	ScrollReveal().reveal('.promo__form', {
 		origin: 'bottom',
-		delay: 6000,
+		delay: 3000,
 	})
 
 	// Partners
@@ -64,13 +65,13 @@ function scrollRevealCode() {
 
 	ScrollReveal().reveal('.swiper-buttons', {
 		origin: 'right',
-		delay: 2500,
+		delay: 2000,
 	})
 
 	ScrollReveal().reveal('.swiper', {
 		distance: '1000px',
 		origin: 'right',
-		delay: 2500,
+		delay: 2000,
 	})
 }
 
