@@ -1,0 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: var(--color-004);
+    font-family: var(--font-main);
+	font-weight: var(--font-weight);
+	line-height: var(--line-height);
+}
+
+button {
+	line-height: inherit;
+}

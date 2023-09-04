@@ -1,0 +1,52 @@
+.destination-card {
+	max-width: 304px;
+	margin: 0 auto;
+	
+	img {
+		margin-bottom: 16px;
+	}
+
+    &__title-block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+
+		margin-bottom: 6px;
+
+		color: var(--color-002);
+		font-weight: 500;
+	}
+
+    &__title {	
+		font-size: 20px;
+	}
+
+    &__rating {
+		position: relative;
+		font-size: 14px;
+
+		&::before {
+			content: '';
+
+			position: absolute;
+			top: 0;
+			left: -21px;
+
+			width: 17px;
+			height: 16px;
+
+			background: url(./../img/el/star-small.svg);
+		}
+	}
+
+    &__dollar {
+		color: var(--color-001);
+		font-weight: 500;
+	}
+    &__number {
+		color: var(--color-002);
+		font-weight: 500;
+	}
+}
+

@@ -1,0 +1,25 @@
+.header {
+    &__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		height: 72px;
+
+		@include media-breakpoint(sm) {
+			height: 45px;
+		}
+	}
+
+    &__btns {
+		display: flex;
+		gap: 12px;
+
+		@include media-breakpoint(sm) {
+			gap: 6px;
+		}
+	}
+}
+
+
+

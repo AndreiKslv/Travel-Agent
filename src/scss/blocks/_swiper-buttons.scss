@@ -1,0 +1,37 @@
+.swiper-buttons {
+	display: flex;
+	gap: 15px;
+
+	svg {
+		vertical-align: bottom;
+	}
+
+	@include media-breakpoint(md) {
+		display: none;
+	}
+}
+
+.swiper-btn-prev {
+
+	&:hover {
+		// path {
+		// 	fill: var(--color-000);
+		// 	transition: fill 3s ease;
+		// }
+
+		rect {
+			fill: var(--color-004);
+			transition: fill .3s ease;
+		}
+	}
+}
+
+.swiper-btn-next {
+	&:hover {
+		rect {
+			fill: #5ecffc;
+			transition: fill .3s ease;
+		}
+	}
+}
+

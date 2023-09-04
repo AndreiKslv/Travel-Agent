@@ -1,0 +1,11 @@
+.logo {
+    display: block;
+
+	@include media-breakpoint(sm) {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+
+		max-width: 30%;
+	}
+}

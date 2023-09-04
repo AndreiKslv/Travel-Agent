@@ -1,0 +1,28 @@
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 8px 20px;
+	border: 1px solid var(--color-011);
+	
+	border-radius: 8px;
+	background: #fff;
+
+	color: var(--color-003);
+
+	transition: background .3s ease, color .3s ease;
+
+	&:hover {
+		background: var(--color-002);
+		color: var(--color-000);
+
+		transition: background .3s ease, color .3s ease;
+	}
+
+	@include media-breakpoint(sm) {
+		padding: 3px 7px;
+
+		font-size: 14px;
+	}
+}
